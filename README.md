@@ -1,7 +1,7 @@
 # Example CSS Styling
 
 ## Description
-This is my CSS styled version of the [app-template](https://github.com/mskcc/app-template) quote generator frontend. 
+This is my styled version of the [app-template](https://github.com/mskcc/app-template) quote generator frontend. 
 
 I modified the appearance of most of the components and added various `element:hover` effects and implemented Flexbox styling throughout to make the application more responsive to user interaction.
 
