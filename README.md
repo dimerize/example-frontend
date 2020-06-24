@@ -1,4 +1,4 @@
-#Example CSS Styling
+# Example CSS Styling
 
 ## Description
 This is my CSS styled version of the app-template quote generator frontend. 
