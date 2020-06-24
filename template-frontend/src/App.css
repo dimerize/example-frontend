@@ -1,0 +1,44 @@
+.app-container {
+  display: flex;
+}
+.app-body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(rgb(0, 124, 186, 0.3), rgb(182, 87, 184, 0.25)), 
+              url('./assets/1-earth.jpg') 0% 0%/cover no-repeat; 
+}
+.quote-container{
+  padding: 10% 0;
+}
+.loading-icon {
+  height:             100px;
+  width:              80px;
+  animation:          rotate 2s linear infinite;
+  transform-origin:   center center;
+  margin:             auto;
+  transition-duration: 0.5s;
+}
+.loading-icon:hover {
+  height:             102px;
+  width:              81.6px;
+  animation:          rotate 2s linear infinite;
+  transform-origin:   center center;
+  margin:             auto;
+}
+footer {
+  height: 10vh;
+  width: 100vw;
+}
+.logo-footer {
+  height: 100px;
+  width: 100px;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
